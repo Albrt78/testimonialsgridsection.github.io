@@ -1,0 +1,342 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding-inline: 10.3rem;
+  padding-top: 9rem;
+}
+body main {
+  display: grid;
+  grid-template-columns: 15fr 4.6fr;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+body main .card__wrapper .card__wrapper__one {
+  display: grid;
+  grid-template-columns: 3.47fr 1.65fr;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+body main .card__wrapper .card__wrapper__one .first__card {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 82% 0%;
+  padding-top: 1.4rem;
+  padding-inline: 1.8rem;
+  height: 284px;
+  border-radius: 0.7rem;
+}
+body main .card__wrapper .card__wrapper__one .first__card .profile__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.9rem;
+}
+body main .card__wrapper .card__wrapper__one .first__card .profile__wrapper img {
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid hsl(263, 34%, 65%);
+}
+body main .card__wrapper .card__wrapper__one .first__card .profile__wrapper .profile__detail {
+  margin-top: 0.2rem;
+}
+body main .card__wrapper .card__wrapper__one .first__card .profile__wrapper .profile__detail h3 {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+}
+body main .card__wrapper .card__wrapper__one .first__card .profile__wrapper .profile__detail h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+}
+body main .card__wrapper .card__wrapper__one .first__card .card__review {
+  margin-top: 1rem;
+  padding-inline-start: 0.2rem;
+  letter-spacing: 0.021rem;
+  line-height: 1.3;
+  color: hsl(210, 46%, 95%);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+body main .card__wrapper .card__wrapper__one .first__card .card__quote {
+  margin-top: 0.9rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.5;
+  font-size: 0.78rem;
+  color: hsl(210, 46%, 95%);
+  font-weight: 600;
+  opacity: 70%;
+  font-weight: 500;
+}
+body main .card__wrapper .card__wrapper__one .second__card {
+  background-color: hsl(217, 19%, 35%);
+  padding-top: 1.4rem;
+  padding-inline: 1.8rem;
+  height: 284px;
+  border-radius: 0.7rem;
+}
+body main .card__wrapper .card__wrapper__one .second__card .profile__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.9rem;
+}
+body main .card__wrapper .card__wrapper__one .second__card .profile__wrapper img {
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid hsl(263, 34%, 65%);
+}
+body main .card__wrapper .card__wrapper__one .second__card .profile__wrapper .profile__detail {
+  margin-top: 0.2rem;
+}
+body main .card__wrapper .card__wrapper__one .second__card .profile__wrapper .profile__detail h3 {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+}
+body main .card__wrapper .card__wrapper__one .second__card .profile__wrapper .profile__detail h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+}
+body main .card__wrapper .card__wrapper__one .second__card .card__review {
+  margin-top: 1rem;
+  padding-inline-start: 0.2rem;
+  letter-spacing: 0.021rem;
+  line-height: 1.3;
+  color: hsl(210, 46%, 95%);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+body main .card__wrapper .card__wrapper__one .second__card .card__quote {
+  margin-top: 0.9rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.45;
+  font-size: 0.78rem;
+  color: hsl(210, 46%, 95%);
+  font-weight: 600;
+  opacity: 70%;
+  font-weight: 500;
+}
+@media (max-width: 1399.98px) {
+  body main .card__wrapper .card__wrapper__one .first__card {
+    padding-block: 1.4rem;
+    height: auto;
+  }
+  body main .card__wrapper .card__wrapper__one .second__card {
+    padding-block: 1.4rem;
+    height: auto;
+  }
+}
+body main .card__wrapper .card__wrapper__two {
+  display: grid;
+  grid-template-columns: 1.43fr 3fr;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  margin-top: 1.5rem;
+}
+body main .card__wrapper .card__wrapper__two .third__card {
+  padding-top: 1.4rem;
+  padding-inline: 1.8rem;
+  height: 266px;
+  border-radius: 0.7rem;
+  background-color: #fff;
+  box-shadow: 2px 5px 30px 0 rgba(0, 0, 0, 0.1921568627);
+}
+body main .card__wrapper .card__wrapper__two .third__card .profile__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.9rem;
+}
+body main .card__wrapper .card__wrapper__two .third__card .profile__wrapper img {
+  width: 35px;
+  border-radius: 50%;
+}
+body main .card__wrapper .card__wrapper__two .third__card .profile__wrapper .profile__detail {
+  margin-top: 0.2rem;
+}
+body main .card__wrapper .card__wrapper__two .third__card .profile__wrapper .profile__detail h3 {
+  font-size: 0.8rem;
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+}
+body main .card__wrapper .card__wrapper__two .third__card .profile__wrapper .profile__detail h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: hsl(217, 19%, 35%);
+  opacity: 50%;
+}
+body main .card__wrapper .card__wrapper__two .third__card .card__review {
+  margin-top: 1rem;
+  padding-inline-start: 0.2rem;
+  letter-spacing: 0.021rem;
+  line-height: 1.3;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+body main .card__wrapper .card__wrapper__two .third__card .card__quote {
+  margin-top: 1.1rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.5;
+  font-size: 0.78rem;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  opacity: 70%;
+  font-weight: 500;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card {
+  padding-top: 1.4rem;
+  padding-inline: 1.8rem;
+  height: 266px;
+  border-radius: 0.7rem;
+  background-color: hsl(219, 29%, 14%);
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .profile__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.9rem;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .profile__wrapper img {
+  width: 35px;
+  border-radius: 50%;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .profile__wrapper .profile__detail {
+  margin-top: 0.2rem;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .profile__wrapper .profile__detail h3 {
+  font-size: 0.8rem;
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .profile__wrapper .profile__detail h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: hsl(217, 19%, 35%);
+  opacity: 50%;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .card__review {
+  margin-top: 1rem;
+  letter-spacing: 0.021rem;
+  line-height: 1.2;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+body main .card__wrapper .card__wrapper__two .fourth__card .card__quote {
+  margin-top: 1.55rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.5;
+  font-size: 0.785rem;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  opacity: 70%;
+  font-weight: 500;
+}
+@media (max-width: 1399.98px) {
+  body main .card__wrapper .card__wrapper__two .third__card {
+    padding-block: 1.4rem;
+    height: auto;
+  }
+  body main .card__wrapper .card__wrapper__two .fourth__card {
+    padding-block: 1.4rem;
+    height: auto;
+  }
+}
+body main .fifth__card {
+  padding-top: 1.45rem;
+  padding-inline: 1.8rem;
+  height: auto;
+  border-radius: 0.7rem;
+  background-color: #fff;
+  box-shadow: 2px 5px 30px 0 rgba(0, 0, 0, 0.1921568627);
+}
+body main .fifth__card .profile__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.9rem;
+}
+body main .fifth__card .profile__wrapper img {
+  width: 30px;
+  border-radius: 50%;
+}
+body main .fifth__card .profile__wrapper .profile__detail {
+  margin-top: 0.2rem;
+}
+body main .fifth__card .profile__wrapper .profile__detail h3 {
+  font-size: 0.8rem;
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+}
+body main .fifth__card .profile__wrapper .profile__detail h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: hsl(217, 19%, 35%);
+  opacity: 50%;
+}
+body main .fifth__card .card__review {
+  margin-top: 1.1rem;
+  line-height: 1.2;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  font-size: 1.17rem;
+}
+body main .fifth__card .card__quote {
+  margin-top: 1rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  opacity: 70%;
+  font-weight: 500;
+}
+@media (max-width: 1399.98px) {
+  body main {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  body main .fifth__card {
+    padding-block: 1.45rem;
+  }
+}
+@media (max-width: 700.98px) {
+  body main {
+    row-gap: 1rem;
+  }
+  body main .card__wrapper .card__wrapper__one,
+  body main .card__wrapper .card__wrapper__two {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 992.98px) {
+  body {
+    padding-inline: 3rem;
+    padding-top: 5rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

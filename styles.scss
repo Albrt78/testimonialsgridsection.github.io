@@ -1,0 +1,397 @@
+// Primary
+$Moderate-violet: hsl(263, 55%, 52%);
+$Very-dark-grayish-blue: hsl(217, 19%, 35%);
+$Very-dark-blackish-blue: hsl(219, 29%, 14%);
+$White: hsl(0, 0%, 100%);
+
+// Neutral
+$Light-gray: hsl(0, 0%, 81%);
+$Light-grayish-blue: hsl(210, 46%, 95%);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $Light-grayish-blue;
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    padding-inline: 10.3rem;
+    padding-top: 9rem;
+
+    main {
+        display: grid;
+        grid-template-columns: 15fr 4.6fr;
+        column-gap: 2rem;
+
+        .card__wrapper {
+            .card__wrapper__one {
+                display: grid;
+                grid-template-columns: 3.47fr 1.65fr;
+                column-gap: 2rem;
+
+                .first__card {
+                    background-color: $Moderate-violet;
+                    background-image: url("images/bg-pattern-quotation.svg");
+                    background-repeat: no-repeat;
+                    background-position: 82% 0%;
+                    padding-top: 1.4rem;
+                    padding-inline: 1.8rem;
+                    height: 284px;
+                    border-radius: 0.7rem;
+
+                    // In this profile wrapper class, in "profile__detail" exactly, there is margin top
+                    .profile__wrapper {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 0.9rem;
+
+                        img {
+                            width: 35px;
+                            border-radius: 50%;
+                            border: 2px solid hsl(263, 34%, 65%);
+                        }
+
+                        .profile__detail {
+                            margin-top: 0.2rem;
+                            h3 {
+                                font-size: 0.8rem;
+                                color: $Light-gray;
+                                font-weight: 500;
+                            }
+
+                            h4 {
+                                font-size: 0.7rem;
+                                font-weight: 500;
+                                color: $Light-gray;
+                                opacity: 50%;
+                            }
+                        }
+                    }
+
+                    .card__review {
+                        margin-top: 1rem;
+                        padding-inline-start: 0.2rem;
+                        letter-spacing: 0.021rem;
+                        line-height: 1.3;
+                        color: $Light-grayish-blue;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                    }
+
+                    .card__quote {
+                        margin-top: 0.9rem;
+                        letter-spacing: 0.015rem;
+                        line-height: 1.5;
+                        font-size: 0.78rem;
+                        color: $Light-grayish-blue;
+                        font-weight: 600;
+                        opacity: 70%;
+                        font-weight: 500;
+                    }
+                }
+
+                .second__card {
+                    background-color: $Very-dark-grayish-blue;
+                    padding-top: 1.4rem;
+                    padding-inline: 1.8rem;
+                    height: 284px;
+                    border-radius: 0.7rem;
+
+                    .profile__wrapper {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 0.9rem;
+
+                        img {
+                            width: 35px;
+                            border-radius: 50%;
+                            border: 2px solid hsl(263, 34%, 65%);
+                        }
+
+                        .profile__detail {
+                            margin-top: 0.2rem;
+                            h3 {
+                                font-size: 0.8rem;
+                                color: $Light-gray;
+                                font-weight: 500;
+                            }
+
+                            h4 {
+                                font-size: 0.7rem;
+                                font-weight: 500;
+                                color: $Light-gray;
+                                opacity: 50%;
+                            }
+                        }
+                    }
+
+                    .card__review {
+                        margin-top: 1rem;
+                        padding-inline-start: 0.2rem;
+                        letter-spacing: 0.021rem;
+                        line-height: 1.3;
+                        color: $Light-grayish-blue;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                    }
+
+                    .card__quote {
+                        margin-top: 0.9rem;
+                        letter-spacing: 0.015rem;
+                        line-height: 1.45;
+                        font-size: 0.78rem;
+                        color: $Light-grayish-blue;
+                        font-weight: 600;
+                        opacity: 70%;
+                        font-weight: 500;
+                    }
+                }
+
+                @media (max-width: 1399.98px) {
+                    .first__card {
+                        padding-block: 1.4rem;
+                        height: auto;
+                    }
+
+                    .second__card {
+                        padding-block: 1.4rem;
+                        height: auto;
+                    }
+                }
+            }
+
+            .card__wrapper__two {
+                display: grid;
+                grid-template-columns: 1.43fr 3fr;
+                column-gap: 2rem;
+                margin-top: 1.5rem;
+
+                .third__card {
+                    padding-top: 1.4rem;
+                    padding-inline: 1.8rem;
+                    height: 266px;
+                    border-radius: 0.7rem;
+                    background-color: #fff;
+                    box-shadow: 2px 5px 30px 0 #00000031;
+
+                    .profile__wrapper {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 0.9rem;
+
+                        img {
+                            width: 35px;
+                            border-radius: 50%;
+                        }
+
+                        .profile__detail {
+                            margin-top: 0.2rem;
+                            h3 {
+                                font-size: 0.8rem;
+                                color: $Very-dark-grayish-blue;
+                                font-weight: 500;
+                            }
+
+                            h4 {
+                                font-size: 0.7rem;
+                                font-weight: 500;
+                                color: $Very-dark-grayish-blue;
+                                opacity: 50%;
+                            }
+                        }
+                    }
+
+                    .card__review {
+                        margin-top: 1rem;
+                        padding-inline-start: 0.2rem;
+                        letter-spacing: 0.021rem;
+                        line-height: 1.3;
+                        color: $Very-dark-grayish-blue;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                    }
+
+                    .card__quote {
+                        margin-top: 1.1rem;
+                        letter-spacing: 0.015rem;
+                        line-height: 1.5;
+                        font-size: 0.78rem;
+                        color: $Very-dark-grayish-blue;
+                        font-weight: 600;
+                        opacity: 70%;
+                        font-weight: 500;
+                    }
+                }
+
+                .fourth__card {
+                    padding-top: 1.4rem;
+                    padding-inline: 1.8rem;
+                    height: 266px;
+                    border-radius: 0.7rem;
+                    background-color: $Very-dark-blackish-blue;
+
+                    .profile__wrapper {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 0.9rem;
+
+                        img {
+                            width: 35px;
+                            border-radius: 50%;
+                        }
+
+                        .profile__detail {
+                            margin-top: 0.2rem;
+                            h3 {
+                                font-size: 0.8rem;
+                                color: $Very-dark-grayish-blue;
+                                font-weight: 500;
+                            }
+
+                            h4 {
+                                font-size: 0.7rem;
+                                font-weight: 500;
+                                color: $Very-dark-grayish-blue;
+                                opacity: 50%;
+                            }
+                        }
+                    }
+
+                    .card__review {
+                        margin-top: 1rem;
+                        letter-spacing: 0.021rem;
+                        line-height: 1.2;
+                        color: $Very-dark-grayish-blue;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                    }
+
+                    .card__quote {
+                        margin-top: 1.55rem;
+                        letter-spacing: 0.015rem;
+                        line-height: 1.5;
+                        font-size: 0.785rem;
+                        color: $Very-dark-grayish-blue;
+                        font-weight: 600;
+                        opacity: 70%;
+                        font-weight: 500;
+                    }
+                }
+
+                @media (max-width: 1399.98px) {
+                    .third__card {
+                        padding-block: 1.4rem;
+                        height: auto;
+                    }
+
+                    .fourth__card {
+                        padding-block: 1.4rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .fifth__card {
+            padding-top: 1.45rem;
+            padding-inline: 1.8rem;
+            height: auto;
+            border-radius: 0.7rem;
+            background-color: #fff;
+            box-shadow: 2px 5px 30px 0 #00000031;
+
+            .profile__wrapper {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 0.9rem;
+
+                img {
+                    width: 30px;
+                    border-radius: 50%;
+                }
+
+                .profile__detail {
+                    margin-top: 0.2rem;
+                    h3 {
+                        font-size: 0.8rem;
+                        color: $Very-dark-grayish-blue;
+                        font-weight: 500;
+                    }
+
+                    h4 {
+                        font-size: 0.7rem;
+                        font-weight: 500;
+                        color: $Very-dark-grayish-blue;
+                        opacity: 50%;
+                    }
+                }
+            }
+
+            .card__review {
+                margin-top: 1.1rem;
+                line-height: 1.2;
+                color: $Very-dark-grayish-blue;
+                font-weight: 600;
+                font-size: 1.17rem;
+            }
+
+            .card__quote {
+                margin-top: 1rem;
+                letter-spacing: 0.015rem;
+                line-height: 1.5;
+                font-size: 0.8rem;
+                color: $Very-dark-grayish-blue;
+                font-weight: 600;
+                opacity: 70%;
+                font-weight: 500;
+            }
+        }
+
+        @media (max-width: 1399.98px) {
+            grid-template-columns: 1fr;
+            row-gap: 2rem;
+
+            .fifth__card {
+                padding-block: 1.45rem;
+            }
+        }
+
+        @media (max-width: 700.98px) {
+            row-gap: 1rem;
+
+            .card__wrapper {
+                .card__wrapper__one,
+                .card__wrapper__two {
+                    grid-template-columns: 1fr;
+                    row-gap: 1rem;
+                }
+            }
+        }
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+
+    @media (max-width: 992.98px) {
+        padding-inline: 3rem;
+        padding-top: 5rem;
+    }
+}
