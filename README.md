@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Testimonials Grid Section](./Testimonials-Grid-Section.png)
+![Testimonials Grid Section](./Testimonials-grid-section-screenshot.png)
 
 ### Links
 
