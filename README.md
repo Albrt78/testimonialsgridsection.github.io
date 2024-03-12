@@ -5,14 +5,10 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ## Table of contents
 
 -   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
+-   [The challenge](#the-challenge)
+-   [Screenshot](#screenshot)
+-   [Links](#links)
+-   [Built with](#built-with)
 -   [Author](#author)
 
 ## Overview
@@ -27,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Testimonials Grid Section](./Testimonials-Grid-Section.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Testimonials Grid Section](https://github.com/Albrt78/testimonialsgridsection.github.io)
+-   Live Site URL: [Testimonials Grid Section](https://albrt78.github.io/testimonialsgridsection.github.io/)
 
 ### Built with
 
